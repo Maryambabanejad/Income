@@ -4,6 +4,7 @@ import java.sql.SQLOutput;
 public class MonthlyPaymentAverage {
     public static void main(String[] args) {
         int [] monthNames=new int[12];
+        monthNames [10]= 20000000;
         monthNames [0]= 1000000;
         monthNames [1]= 11000000;
         monthNames [2]= 10000000;
@@ -14,7 +15,6 @@ public class MonthlyPaymentAverage {
         monthNames [7]= 17000000;
         monthNames [8]= 18000000;
         monthNames [9]= 19000000;
-        monthNames [10]= 20000000;
         monthNames [11]= 21000000;
         int total=0;
         for (int counter =0 ;counter<12;counter++){
