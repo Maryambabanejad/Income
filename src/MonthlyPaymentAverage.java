@@ -21,7 +21,6 @@ public class MonthlyPaymentAverage {
             total+= monthNames [counter];
         }
            int avarageIncome =total/12;
-
             System.out.println(avarageIncome);
     }
 }
